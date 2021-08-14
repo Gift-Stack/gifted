@@ -7,21 +7,27 @@ nav {
   font-size: 1.875rem;
   font-style: italic;
   font-weight: bold;
-  width: 100%;
+  // width: 100%;
+  // width: -webkit-fit-content;
+  // width: -moz-fit-content;
+  // width: fit-content;
+  // position: relative;
+  // overflow: hidden;
   height: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   .logo {
     font-size: 1.175rem;
+    width: 100px;
   }
   ul {
     list-style: none;
     font-style: normal;
     display: flex;
     justify-content: space-around;
-    // transition: all 0.3s ease-in-out;
-    // transition-delay: 0.3s;
+    transition: all 0.3s ease-in-out;
+    transition-delay: 0.3s;
 
     li {
       margin: auto 20px;
@@ -115,5 +121,15 @@ nav {
       top: 9px;
       transform: rotate(-45deg);
     }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
   }
 }
