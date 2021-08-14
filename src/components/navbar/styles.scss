@@ -1,8 +1,8 @@
-$primary-navcolor: #fda403;
+$primary-color: #fda403;
 $text-color: #fff;
 
 nav {
-  padding: 60px 10%;
+  // padding: 70px 8%;
   font-size: 1.875rem;
   font-style: italic;
   font-weight: bold;
@@ -10,6 +10,9 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  .logo {
+    font-size: 1.3rem;
+  }
   ul {
     list-style: none;
     font-style: normal;
@@ -21,7 +24,7 @@ nav {
         text-decoration: none;
         transition: all 0.25s;
         &:hover {
-          color: $primary-navcolor;
+          color: $primary-color;
           text-decoration: underline;
         }
       }
@@ -41,9 +44,9 @@ nav {
     margin-left: 16px;
     cursor: pointer;
     &:hover {
-      color: $primary-navcolor;
+      color: $primary-color;
       .line {
-        background-color: $primary-navcolor;
+        background-color: $primary-color;
         &:first-child {
           width: 60%;
         }

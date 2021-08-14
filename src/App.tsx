@@ -1,11 +1,13 @@
 import React from 'react'
 import './App.css'
+import Body from './components/body/Body'
 import Navbar from './components/navbar/Navbar'
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
+      <Body />
     </div>
   )
 }

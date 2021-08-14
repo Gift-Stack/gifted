@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import './styles.css'
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   const [x, setX] = useState('')
 
-  const handleToggle = (prev: boolean, e: React.MouseEvent) => {
+  const handleToggle = (prev: boolean) => {
     setToggle(!prev)
     if (toggle === true) {
       setX('')
@@ -19,10 +19,10 @@ const Navbar = () => {
       {toggle && (
         <ul>
           <li>
-            <a href="somewhere.com">Home</a>
+            <a href="somewhere.com">Works</a>
           </li>
           <li>
-            <a href="somewhere.com">Works</a>
+            <a href="somewhere.com">Resume</a>
           </li>
           <li>
             <a href="somewhere.com">Contacts</a>
@@ -31,7 +31,7 @@ const Navbar = () => {
       )}
       <div
         className={`menu-icon d-lg-none js-menu-open menu-open-${x}`}
-        onClick={(e) => handleToggle(toggle, e)}
+        onClick={() => handleToggle(toggle)}
       >
         <span className="line"></span>
         <span className="line"></span>

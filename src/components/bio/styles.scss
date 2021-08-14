@@ -1,0 +1,39 @@
+$primary-color: #fda403;
+$text-color: #fff;
+
+h1 {
+  font-size: 6rem;
+  font-weight: normal;
+  &:nth-child(2) {
+    margin-bottom: 50px;
+  }
+}
+p {
+  width: 50%;
+  font-size: x-large;
+  color: #dddddd;
+  a {
+    color: $primary-color;
+  }
+}
+
+@media screen and (max-width: 1120px) {
+  p {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 4rem;
+  }
+  p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 3rem;
+  }
+}
