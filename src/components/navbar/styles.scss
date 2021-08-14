@@ -34,7 +34,7 @@ nav {
           width: 0%;
           height: 2px;
           background-color: $primary-color;
-          transition: width 0.25s ease-in-out;
+          transition: 0.25s;
         }
         &:hover {
           color: $primary-color;
