@@ -1,29 +1,85 @@
+@font-face {
+  font-family: 'Ogg';
+  src: url('//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot');
+  src: url('//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/2596224269750e00c3ad5356299a3b9f.svg#Ogg')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'HK Grotesk';
+  src: url('//db.onlinewebfonts.com/t/9897812c6013649bd7a0c3d2efb4c834.eot');
+  src: url('//db.onlinewebfonts.com/t/9897812c6013649bd7a0c3d2efb4c834.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/9897812c6013649bd7a0c3d2efb4c834.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/9897812c6013649bd7a0c3d2efb4c834.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/9897812c6013649bd7a0c3d2efb4c834.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/9897812c6013649bd7a0c3d2efb4c834.svg#HK Grotesk')
+      format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Circular Std Medium';
+  src: url('//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.eot');
+  src: url('//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.eot?#iefix')
+      format('embedded-opentype'),
+    url('//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.woff2')
+      format('woff2'),
+    url('//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.woff')
+      format('woff'),
+    url('//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.ttf')
+      format('truetype'),
+    url('//db.onlinewebfonts.com/t/9475d6a0b79c164f9f605673714e75d9.svg#Circular Std Medium')
+      format('svg');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'ogg';
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+  color: #fff;
+}
+
 body {
-    margin: 0;
-    padding: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
-        'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
-        'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 
-    width: 100%;
-    height: 100vh;
+  width: 100%;
 
-    background: #000;
-    background-image: linear-gradient(
-            rgba(210, 210, 210, 0.1) 0.1em,
-            transparent 0.1em
-        ),
-        linear-gradient(
-            90deg,
-            rgba(210, 210, 210, 0.1) 0.1em,
-            transparent 0.1em
-        );
-    background-size: 6em 6em;
+  background: #000;
+  background-image: linear-gradient(
+      rgba(210, 210, 210, 0.1) 0.1em,
+      transparent 0.1em
+    ),
+    linear-gradient(90deg, rgba(210, 210, 210, 0.1) 0.1em, transparent 0.1em);
+  background-size: 6em 6em;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-        monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
 }
