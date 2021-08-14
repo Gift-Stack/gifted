@@ -15,7 +15,7 @@ const Navbar = () => {
   }
   return (
     <nav>
-      <div className="logo">Gift Opia</div>
+      <div className="logo">Gift Opia/v1</div>
       <ul style={{ visibility: `${!toggle ? 'hidden' : 'visible'}` }}>
         <li>
           <a href="somewhere.com">Works</a>
