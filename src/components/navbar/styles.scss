@@ -75,25 +75,6 @@ nav {
     }
   }
 
-  // .menu-icon .line {
-  //   width: 100%;
-  //   height: 2px;
-  //   background-color: $text-color;
-  //   position: absolute;
-  //   right: 0;
-  //   transition: all 0.3s;
-  // }
-  // .menu-icon .line:first-child {
-  //   top: 0;
-  // }
-  // .menu-icon .line:nth-child(2) {
-  //   top: 9px;
-  //   width: 60%;
-  // }
-  // .menu-icon .line:last-child {
-  //   top: 20px;
-  // }
-
   .menu-open-x:hover {
     .line {
       width: 100% !important;
@@ -115,18 +96,4 @@ nav {
       transform: rotate(-45deg);
     }
   }
-  // .menu-open-x .line:first-child {
-  //   width: 100%;
-  //   top: 9px;
-  //   transform: rotate(45deg);
-  // }
-  // .menu-open-x .line:nth-child(2) {
-  //   visibility: hidden;
-  //   opacity: 0;
-  // }
-  // .menu-open-x .line:last-child {
-  //   width: 100%;
-  //   top: 9px;
-  //   transform: rotate(-45deg);
-  // }
 }
