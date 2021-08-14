@@ -18,14 +18,29 @@ nav {
     font-style: normal;
     display: flex;
     justify-content: space-around;
+    // transition: all 0.3s ease-in-out;
+    // transition-delay: 0.3s;
+
     li {
       margin: auto 20px;
+      position: relative;
       a {
         text-decoration: none;
         transition: all 0.25s;
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          width: 0%;
+          height: 2px;
+          background-color: $primary-color;
+          transition: width 0.25s ease-in-out;
+        }
         &:hover {
           color: $primary-color;
-          text-decoration: underline;
+          &::before {
+            width: 100%;
+          }
         }
       }
     }

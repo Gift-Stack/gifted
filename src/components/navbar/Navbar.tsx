@@ -16,19 +16,17 @@ const Navbar = () => {
   return (
     <nav>
       <div className="logo">Gift Opia</div>
-      {toggle && (
-        <ul>
-          <li>
-            <a href="somewhere.com">Works</a>
-          </li>
-          <li>
-            <a href="somewhere.com">Resume</a>
-          </li>
-          <li>
-            <a href="somewhere.com">Contacts</a>
-          </li>
-        </ul>
-      )}
+      <ul style={{ visibility: `${!toggle ? 'hidden' : 'visible'}` }}>
+        <li>
+          <a href="somewhere.com">Works</a>
+        </li>
+        <li>
+          <a href="somewhere.com">Resume</a>
+        </li>
+        <li>
+          <a href="somewhere.com">Contacts</a>
+        </li>
+      </ul>
       <div
         className={`menu-icon d-lg-none js-menu-open menu-open-${x}`}
         onClick={() => handleToggle(toggle)}
