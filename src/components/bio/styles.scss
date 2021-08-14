@@ -1,9 +1,10 @@
+@import '../mixins/headers';
+
 $primary-color: #fda403;
 $text-color: #fff;
 
 h1 {
-  font-size: 6rem;
-  font-weight: normal;
+  @include header;
   &:nth-child(2) {
     margin-bottom: 50px;
   }
