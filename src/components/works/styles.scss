@@ -1,0 +1,8 @@
+@import '../mixins/headers';
+
+section {
+  margin-top: 20%;
+  h1 {
+    @include header(3rem);
+  }
+}
