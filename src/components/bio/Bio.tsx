@@ -4,7 +4,8 @@ const Bio = () => {
   return (
     <div>
       <h1>- Hey there,</h1>
-      <h1>I am Gifted ⚡️</h1>
+      <h1>I am Gifted 👨🏾‍💻</h1>
+      {/* <h1>I am Gifted ⚡️</h1> */}
       <p>
         I'm currently a Frontend Engineer at{' '}
         <a
